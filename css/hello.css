@@ -1,0 +1,97 @@
+body {
+    background-color: #edf2f7;
+    font-family: arial;
+}
+
+header,
+.card-deck,
+footer {
+    background-color: grey;
+    margin: 40px auto;
+    width: 960px;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1,
+span {
+    color: #66b8f5;
+       
+}
+
+
+h1 {
+    font-size: 125px;
+    /*-webkit-text-stroke: 2.5px black;*/
+}
+
+h2 {
+    color: #8594ad;
+    font-size: 32px;
+}
+
+.card-deck h2,
+ul {
+    text-align: center;
+}
+
+
+li {
+    list-style: none;
+    padding: 16px 0;
+}
+
+
+li a {
+    color: #68778d;
+    font-size: 18px;
+
+}
+h2 a {
+    background-color: #dd6b20;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px;
+    color: #fff;
+}
+h2 a:hover {
+    background-color: grey;
+    border: 2px solid #dd6b20;
+    padding: 3px;
+    color: #a0aec0;
+}
+
+
+
+
+.card-deck ul li:last-child {
+    padding-bottom: 32px;
+}
+
+.card-deck {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #edf2f7;
+}
+
+section {
+    text-align: center;
+    background-color: grey;
+}
+
+
+.card-deck section {
+    width: 300px;
+}
+
+footer p {
+    font-style: italic;
+    margin: 20px;
+    padding: 20px 0;
+    color: #68778d;
+    font-size: 16px;
+}
